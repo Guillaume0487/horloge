@@ -1,0 +1,263 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.border {
+    background: linear-gradient(90deg, rgb(190, 190, 190), grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.etoile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, white, rgb(228, 228, 228));
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.center-1 {
+    background: linear-gradient(90deg, rgb(190, 190, 190), grey);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.center-2 {
+    position: absolute;
+    background: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.pick-1 {
+    position: absolute;
+    width: 400px;
+    animation: turn 60s linear infinite;
+    z-index: 3;
+}
+
+.sec {
+    background-color: #9A0719;
+    height: 3px;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.pick-1-b {
+    position: absolute;
+    width: 400px;
+    animation: turn 60s linear infinite;
+    z-index: 3;
+}
+
+.sec-b {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border: 3px solid #9A0719;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.pick-2 {
+    position: absolute;
+    width: 400px;
+    animation: turn 3600s linear infinite;
+    z-index: 2;
+}
+
+.min {
+    background-color: black;
+    height: 5px;
+    width: 35%;
+    margin-left: 20%;
+}
+
+.pick-3 {
+    position: absolute;
+    width: 400px;
+    animation: turn 43200s linear infinite;
+    z-index: 1;
+}
+
+.hours {
+    background-color: black;
+    height: 10px;
+    width: 25%;
+    margin-left: 30%;
+}
+
+@keyframes turn {
+    from {transform: rotate(90deg);}
+    to {transform: rotate(450deg);}
+}
+
+.dash-1 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(120deg);
+}
+
+.num-1 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-2 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(150deg);
+}
+
+.num-2 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-3 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}
+
+.num-3 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-4 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(210deg);
+}
+
+.num-4 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-5 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(240deg);
+}
+
+.num-5 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-6 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(270deg);
+}
+
+.num-6 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-7 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(300deg);
+}
+
+.num-7 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-8 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(330deg);
+}
+
+.num-8 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-9 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+
+.num-9 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-10 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(30deg);
+}
+
+.num-10 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-11 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(60deg);
+}
+
+.num-11 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
+
+.dash-12 {
+    position: absolute;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+}
+
+.num-12 {
+    background-color: black;
+    height: 10px;
+    width: 5%;
+}
